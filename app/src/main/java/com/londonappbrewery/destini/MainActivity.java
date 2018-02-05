@@ -26,9 +26,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         // TODO: Step 5 - Wire up the 3 views from the layout to the member variables:
-        mStoryTextView = (TextView) findViewById(R.id.storyTextView);
-        mButtonTop = (Button) findViewById(R.id.buttonTop);
-        mButtonBottom = (Button) findViewById(R.id.buttonBottom);
+        private mStoryTextView = (TextView) findViewById(R.id.storyTextView);
+        private mButtonTop = (Button) findViewById(R.id.buttonTop);
+        private mButtonBottom = (Button) findViewById(R.id.buttonBottom);
 
 
         // TODO: Steps 6, 7, & 9 - Set a listener on the top button:
